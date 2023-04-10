@@ -90,6 +90,7 @@ public class SalaDeCine {
 	}
 
 	// Se verifica si hay espacio para X cantidad de personas de forma contigua
+	//Comentario para subir
 	public Boolean hayEspacioPara(Integer cantidadDePersonas) {
 		for (int i = 0; i < butacas.length; i++) {
 			int butacasContiguas = 0;
